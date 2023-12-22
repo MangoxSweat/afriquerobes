@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node build",
+    "start": "node build app",
     "dev": "svelte-kit dev",
     "build": "vite build",
     "preview": "vite preview",
