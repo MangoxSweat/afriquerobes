@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node",
+    "start": "vite node",
     "dev": "svelte-kit dev",
     "build": "vite build",
     "preview": "vite preview",
@@ -11,7 +11,6 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.0.1",
     "@sveltejs/adapter-node": "^2.0.2",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -23,6 +22,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@sveltejs/adapter-auto": "^3.0.1",
     "@chec/commerce.js": "^1.0.0"
   },
   "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
