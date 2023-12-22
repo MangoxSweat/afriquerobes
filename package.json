@@ -11,6 +11,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
   },
   "devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.1"
     "@sveltejs/adapter-node": "^2.0.2",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -23,6 +24,5 @@
   "type": "module",
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
-		"@sveltejs/adapter-auto": "^3.0.1"
   }
 }
